@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="about us.css">
+<style>
+* {
+  box-sizing:border-box;
+
+}
+
+body {
+  background-color: ;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+  border-color: black;
+ 
+
+
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+  border-width:1%;
+  border-color: black;
+
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  border-radius:0%;
+  border-color: #f2f2f2;
+ 
+  border-width: 1%;
+  border-style: solid;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+  border-radius: 1%;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default" style="background-color: white;color: black;margin-top:-0%;border-color:white; ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <img src="" width="55%" style="margin-top:2%; ">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="faqiaresponsiv.html">Home</a></li>
+      <li><a href="about us.html">About Us</a></li>
+      <li><a href="Galery.html">Galery</a></li>
+      <li><a href="kontakt.html">Contact</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class=></span>E-mail:info@restaurant.al</a></li>
+      <li><a href="#"><span class=></span>Tel:355 69 45 78 456</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 
+
+</head>
+<body>
+
+<div class="img">
+
+  <img src="one2.jpg" width="100%" height="10%"  class="src">
+</div>
+
+<br>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <div class="container">
+  <div class="row">
+
+  <div class="col-md-6" style="background-color: #fcfcfc; "><br>
+      
+        <p class="first"><h2>Restorant 4 STINET</h2></p><p> eshte nje histori mikpritjeje prej me shume se 13 vitesh. Te gjithe klientet qe na vizitojne, perfshihen jo vetem ne nje eksperience kulinarie por edhe emocionale. Restorant 4 Stinet, qe nga viti 2003, pasqyron nje filozofi gatimi inovative, nderkohe qe ruan kulturen lokale te ushqimit dhe traditat e qytetit te Durresit.
+
+I pozicionuar ne shetitoren e Vollges, restoranti i jep mundesine klienteve te shijojne bukurine dhe qetesine e bregdetit shqiptar.</p>
+ <p> Restoranti jone është një premtim dhe një garanci që çdo herë do të gjesh atë që pret, atë që ke lënë herën e fundit, të njëjtën shije, të njëjtën delikatesë dhe përkujdesje ndaj asaj që klienti kërkon. </p>
+  <p>4 Stinet nuk kopjon, por krijon, eksperimenton, përmirëson dhe njëkohësisht i mbetet besnik misionit të tij: Ofro më të mirën, me thjeshtësi, sepse gjithçka shkon e vjen, por shijet bazë mbeten.</p>
+
+
+    </div>
+
+    <div class="col-md-6" >
+    
+       <div class="w3-container w3-center w3-animate-zoom">
+          <img src="fish-menu.jpg" alt="Nature" style="width:100%;height:40%;">
+    </div></div>
+  
+  
+  </div>
+</div>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+
+<div id="myBtnContainer">
+  <center><button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('breakfast')"> Breakfast</button>
+  <button class="btn" onclick="filterSelection('lunch')"> Lunch</button>
+  <button class="btn" onclick="filterSelection('dinner')"> Dinner</button>
+   <button class="btn" onclick="filterSelection('desserts')"> Desserts</button></center>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+
+
+ 
+
+<div class="row">
+  <div class="column breakfast">
+    <div class="content">
+      <img src="100.jpg" alt="Mountains" style="width:100%">
+      <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+  <div class="column breakfast">
+    <div class="content">
+    <img src="101.jpg" alt="Lights" style="width:100%">
+     <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+  <div class="column breakfast">
+    <div class="content">
+    <img src="102.jpg" alt="Nature" style="width:100%">
+      <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+  
+  <div class="column lunch">
+    <div class="content">
+      <img src="103.jpg" alt="Car" style="width:100%">
+     <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+  <div class="column lunch">
+    <div class="content">
+    <img src="104.jpg" alt="Car" style="width:100%">
+     <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+  <div class="column dinner">
+    <div class="content">
+    <img src="105.jpg" alt="Car" style="width:100%">
+      <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+
+  <div class="column dinner">
+    <div class="content">
+      <img src="140.jpg" alt="Car" style="width:100%">
+     <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+  <div class="column desserts">
+    <div class="content">
+    <img src="150.jpg" alt="Car" style="width:100%">
+     <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+  <div class="column desserts">
+    <div class="content">
+    <img src="160.jpg" alt="Car" style="width:100%">
+     <center><p><b><i>Beafsteak Potato Fly</b></i></p></center>
+<center><a href="ordernow.html"><button type="submit" class="btn btn-default" id="Lunch"style="background-color:#f44336;color:white;">Order Now</button></a></center>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+<footer class="container-fluid bg-4 text-center"id="footer">
+  <p id="ola2">Designed by<b>@Ola Gostima</b></p> <br>
+ 
+  <p id="ola1"></p>
+
+    <ul class="social-icons">
+    <li><a href="https://www.facebook.com/4stinet.al/?ref=br_rs"><img src="facebook-logo (1).png"/></a></li>
+    <li><a href="http://www.twitter.com"><img src="instagram-logo.png" /></a></li>
+    <li><a href="http://www.youtube.com"><img src="twitter-logo-button.png" /></a></li>
+</ul>
+</footer>
+
+</body>
+</html>
